@@ -761,6 +761,9 @@ form {
   .switch-btn {
     font-size: 14px;
   }
+  .flag {
+    width: 80px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -898,6 +901,12 @@ form {
   }
   .burger {
     width: 40px;
+  }
+  .flag {
+    width: 70px;
+  }
+  .levels .section-title {
+    margin-top: 60px;
   }
 }
 
