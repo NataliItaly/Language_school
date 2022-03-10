@@ -606,7 +606,7 @@ form {
 }
 
 .footer .container {
-  height: 100px;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -752,6 +752,17 @@ form {
   .category-list li {
     font-size: 16px;
   }
+  .footer .container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-contacts {
+    text-align: center;
+  }
+  .social {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -890,9 +901,12 @@ form {
   .logo {
     width: 110px;
   }
-  .app-contacts {
+  .header .app-contacts {
     align-self: flex-start;
     width: 130px;
+  }
+  .footer .app-contacts {
+    align-self: center;
   }
   .app-img {
     vertical-align: top;
