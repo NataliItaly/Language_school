@@ -196,6 +196,9 @@ section {
   line-height: 120px;
 }
 h1 span {
+  height: fit-content;
+  background-color: #164752;
+  border-radius: 15px;
 }
 
 .school,
@@ -383,7 +386,14 @@ h1 span {
 .levels {
   color: #e5cf7d;
 }
-
+.levels .section-title {
+  margin-top: 100px;
+}
+.levels .section-title span {
+  background-color: #164752;
+  border-radius: 15px;
+  width: fit-content;
+}
 .levels .section-title::before,
 .levels .section-title::after {
   width: 240px;
@@ -536,7 +546,7 @@ form {
 #tel,
 #textarea {
   width: 100%;
-  background: transparent;
+  background: #e5cf7d;
   border: 1px solid #166272;
   padding-left: 17px;
   padding-right: 20px;
@@ -569,7 +579,9 @@ form {
   font-size: 20px;
   line-height: 40px;
 }
-
+.send-btn {
+  margin-top: 50px;
+}
 .send-btn:hover {
   box-shadow: inset 13em 0 0 0 #19788d;
   border: 1px solid #a1946d;
