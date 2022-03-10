@@ -819,7 +819,7 @@ form {
   }
   .contacts .container {
     padding: 0 10px;
-    background-size: contain;
+    background-position: center;
   }
   .footer-contacts {
     text-align: center;
