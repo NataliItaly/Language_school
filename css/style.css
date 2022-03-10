@@ -282,6 +282,17 @@ h1 span {
 .section-title::after {
   right: 0;
 }
+.flags-wrapper {
+  width: fit-content;
+  margin: 50px auto 0;
+}
+.flag {
+  cursor: pointer;
+  transition: 0.6s all ease;
+}
+.flag:hover {
+  transform: rotateY(180deg);
+}
 
 /*------------------------category------------------------*/
 
