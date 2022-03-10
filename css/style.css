@@ -393,7 +393,7 @@ h1 span {
   margin-bottom: 90px;
   position: relative;
 }
-.levels-item::after {
+.levels-item:not(:last-child):after {
   content: "";
   width: 200px;
   height: 1px;
@@ -495,9 +495,7 @@ h1 span {
 .contacts {
   background-color: #e5cf7d;
 }
-.contacts .section-title {
-  color: #164752;
-}
+
 .contacts .container {
   display: flex;
   justify-content: flex-end;
@@ -516,9 +514,16 @@ h1 span {
 }
 
 .contacts .section-title {
-  width: 100%;
+  margin-left: 0;
+  width: fit-content;
   text-align: left;
-  margin-bottom: 37px;
+  margin-bottom: 50px;
+  height: 60px;
+  background-color: #e5cf7d;
+  border-radius: 20px;
+  color: #164752;
+  padding-top: 0;
+  height: 32px;
 }
 .contacts .section-title::before,
 .contacts .section-title::after {
@@ -846,6 +851,12 @@ form {
   .price .section-title::before,
   .price .section-title::after {
     display: none;
+  }
+  .price-item-title {
+    font-size: 19px;
+  }
+  .how-much {
+    font-size: 16px;
   }
   .contacts .section-title {
     font-size: 26px;
