@@ -56,7 +56,7 @@ a,
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 40px;
-  color: #423c3b;
+  color: #e5cf7d;
 }
 a:hover {
   color: #bdae82;
@@ -95,7 +95,7 @@ section {
   width: 100%;
 }
 .logo {
-  width: 200px;
+  width: 15%;
   height: 100px;
   cursor: pointer;
   transition: 1s all ease;
@@ -103,13 +103,13 @@ section {
 .logo-img {
   width: 100%;
   height: auto;
-  border: 2px solid #957558;
+  border: 4px solid #a99651;
   border-radius: 50%;
 }
 .logo:hover {
   transform: rotateY(180deg);
 }
-.header-contacts {
+.app-contacts {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,7 +134,7 @@ section {
   justify-content: space-around;
 }
 .nav-link {
-  color: #957558;
+  color: #e5cf7d;
   transition: 0.6s;
   letter-spacing: 0.1px;
 }
@@ -149,7 +149,7 @@ section {
   justify-content: space-between;
 }
 .switch-span {
-  color: #957558;
+  color: #e5cf7d;
   padding-top: 3px;
   display: block;
 }
@@ -161,7 +161,7 @@ section {
   cursor: pointer;
 }
 .burger-line {
-  background: #957558;
+  background: #a99651;
   height: 2px;
   width: 100%;
   display: block;
@@ -191,9 +191,16 @@ section {
 .school h1 {
   text-align: center;
   font-style: italic;
-  color: #3c3938;
+  color: #e5cf7d;
   font-size: 60px;
   line-height: 120px;
+}
+h1 span {
+}
+
+.school,
+.levels {
+  background-color: #16475238;
 }
 .school .container {
   position: relative;
@@ -210,21 +217,24 @@ section {
   text-align: center;
 }
 .gold-btn {
-  color: #000000;
-  background-color: #bdae82;
+  color: #166272;
+  background-color: #e5cf7d;
+  border-radius: 15px;
   transition: 0.6s;
   position: relative;
+  border: 1px solid #19788d;
 }
 
 .switch-btn.current-language {
-  color: #d1c293;
+  background-color: #166272;
 }
 
 .switch-btn {
-  width: 25px;
+  width: 50px;
   height: 50px;
+  border-radius: 15px;
   background-color: transparent;
-  color: #957558;
+  color: #e5cf7d;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -251,7 +261,7 @@ section {
   height: 80px;
   padding-top: 20px;
   font-size: 40px;
-  color: #957558;
+  color: #e5cf7d;
   margin: 0 auto 60px auto;
   position: relative;
   text-align: center;
@@ -259,7 +269,7 @@ section {
 .section-title::before,
 .section-title::after {
   content: "";
-  border-bottom: 1px solid #957558;
+  border-bottom: 1px solid #e5cf7d;
   position: absolute;
   top: 40px;
 }
@@ -287,12 +297,13 @@ section {
   vertical-align: bottom;
   padding: 150px 10px 10px;
   transition: 0.6s;
+  color: #000000;
   text-transform: uppercase;
 }
 
 .category-list li:hover {
   transform: scale(1.1);
-  filter: invert(74%) brightness(84%);
+  filter: invert(74%) brightness(111%);
 }
 
 .children {
@@ -300,7 +311,7 @@ section {
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .adult {
@@ -308,7 +319,7 @@ section {
   background-repeat: no-repeat;
   background-size: 78px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .business {
@@ -316,7 +327,7 @@ section {
   background-repeat: no-repeat;
   background-size: 80px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .travel {
@@ -324,7 +335,7 @@ section {
   background-repeat: no-repeat;
   background-size: 78px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .work {
@@ -332,7 +343,7 @@ section {
   background-repeat: no-repeat;
   background-size: 74px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .meeting {
@@ -340,7 +351,7 @@ section {
   background-repeat: no-repeat;
   background-size: 88px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .globe {
@@ -348,7 +359,7 @@ section {
   background-repeat: no-repeat;
   background-size: 98px;
   background-position: center 25px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .certificate {
@@ -356,7 +367,7 @@ section {
   background-repeat: no-repeat;
   background-size: 94px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 .interview {
@@ -364,13 +375,13 @@ section {
   background-repeat: no-repeat;
   background-size: 74px;
   background-position: center 30px;
-  filter: invert(53%) sepia(10%) saturate(1595%) hue-rotate(347deg) brightness(87%) contrast(77%);
+  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
 }
 
 /*------------------------levels------------------------*/
 
 .levels {
-  color: #957558;
+  color: #e5cf7d;
 }
 
 .levels .section-title::before,
@@ -386,7 +397,7 @@ section {
   content: "";
   width: 200px;
   height: 1px;
-  background-color: #957558;
+  background-color: #e5cf7d;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -444,7 +455,7 @@ section {
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 56px;
   text-align: center;
   margin-bottom: 20px;
@@ -453,10 +464,10 @@ section {
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 48px;
   text-align: center;
-  color: #957558;
+  color: #e5cf7d;
   margin-bottom: 20px;
 }
 .price-description p {
@@ -471,24 +482,30 @@ section {
   display: block;
   margin: 0 auto 40px auto;
   padding-top: 6px;
+  color: #164752;
 }
 
 .price-item .button:hover {
-  background-color: #5fd5ef;
-  border: 1px solid #a1946d;
+  background-color: #166272;
+  color: #bdae82;
+  border: 2px solid #a1946d;
 }
 
 /*------------------------contacts------------------------*/
 .contacts {
-  background-color: #ffffff;
+  background-color: #e5cf7d;
+}
+.contacts .section-title {
+  color: #164752;
 }
 .contacts .container {
   display: flex;
   justify-content: flex-end;
   padding: 0 10px;
-  background: url("../assets/img/contacts-bg.jpg");
-  background-position: top left;
+  background: url("../assets/img/contacts-bg.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 40px;
 }
 .contacts-container {
   width: 450px;
@@ -515,17 +532,18 @@ form {
 #textarea {
   width: 100%;
   background: transparent;
-  border: 1px solid #bdae82;
+  border: 1px solid #166272;
   padding-left: 17px;
   padding-right: 20px;
-  color: #bdae82;
+  color: #166272;
   font-size: 20px;
+  border-radius: 15px;
 }
 
 #email:focus,
 #tel:focus,
 #textarea:focus {
-  border: 1px solid #f5e9c4;
+  border: 1px solid #bdae82;
 }
 #email,
 #tel {
@@ -542,16 +560,18 @@ form {
 #tel::placeholder,
 #textarea::placeholder {
   font-family: inherit;
-  color: #bdae82;
+  color: #166272;
   font-size: 20px;
   line-height: 40px;
 }
 
 .send-btn:hover {
-  box-shadow: inset 13em 0 0 0 #37ebf1;
+  box-shadow: inset 13em 0 0 0 #19788d;
   border: 1px solid #a1946d;
-  color: #a1946d;
+  color: #e5cf7d;
 }
+
+/*--------------------------footer--------------------------*/
 
 .footer {
   padding: 20px 0;
@@ -564,18 +584,19 @@ form {
   align-items: center;
 }
 .footer-data {
-  color: #957558;
+  color: #e5cf7d;
 }
 .footer-contacts a {
   display: block;
-  color: #957558;
+  color: #e5cf7d;
   cursor: pointer;
 }
 .footer-contacts a:hover {
-  color: #a1946d;
+  text-decoration: underline;
+  color: #ebdbad;
 }
 .social {
-  width: 188px;
+  width: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -585,44 +606,39 @@ form {
   height: 32px;
 }
 .instagram {
-  background: url("../assets/svg/social/1instagram.svg");
+  background: url("../assets/img/1instagram.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: 0.3s;
+  transition: 0.6s;
+  filter: invert(30%) sepia(30%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 .facebook {
-  background: url("../assets/svg/social/2facebook.svg");
+  background: url("../assets/img/2facebook.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: 0.3s;
-}
-.twitter {
-  background: url("../assets/svg/social/3twitter.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 0.3s;
-}
-.pinterest {
-  background: url("../assets/svg/social/4pinterest.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 0.3s;
-}
-.instagram:hover,
-.facebook:hover,
-.twitter:hover,
-.pinterest:hover {
-  filter: invert(40%) sepia(25%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+  transition: 0.6s;
+  filter: invert(30%) sepia(30%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
-@media (max-width: 1008px) {
+.instagram:hover,
+.facebook:hover {
+  filter: brightness(64%) sepia(90%) contrast(196%);
+}
+
+/*--------------------------------media------------------------------*/
+
+/* @media (max-width: 1008px) {
   .school h1 {
     font-size: 52px;
     line-height: 90px;
+  }
+} */
+
+@media (max-width: 980px) {
+  .logo {
+    width: 140px;
   }
 }
 
@@ -790,6 +806,13 @@ form {
   .little {
     font-size: 26px;
   }
+  .logo {
+    width: 120px;
+  }
+  .app-img {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -827,10 +850,28 @@ form {
   .contacts .section-title {
     font-size: 26px;
   }
+  .logo {
+    width: 110px;
+  }
+  .app-contacts {
+    align-self: flex-start;
+    width: 130px;
+  }
+  .app-img {
+    vertical-align: top;
+    width: 32px;
+    height: 32px;
+  }
+  .burger {
+    width: 40px;
+  }
 }
 
 @media (max-width: 340px) {
   .school h1 {
     line-height: 30px;
+  }
+  .logo {
+    width: 105px;
   }
 }
