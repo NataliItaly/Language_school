@@ -75,13 +75,6 @@ section {
 
 /*------------------------header------------------------*/
 
-header .school {
-  margin-top: 90px;
-  background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 .header {
   height: 140px;
   width: 100%;
@@ -105,7 +98,7 @@ header .school {
   width: 200px;
   height: 100px;
   cursor: pointer;
-  transition: 6s all ease;
+  transition: 1s all ease;
 }
 .logo-img {
   width: 100%;
@@ -114,6 +107,7 @@ header .school {
   border-radius: 50%;
 }
 .logo:hover {
+  transform: rotateY(180deg);
 }
 .header-contacts {
   display: flex;
@@ -121,21 +115,23 @@ header .school {
   align-items: center;
   width: 150px;
 }
-.app-call {
+.call {
+  display: block;
+}
+.app-img {
   width: 40px;
   height: 40px;
+  vertical-align: middle;
 }
 
 .header-nav {
   min-width: 350px;
   letter-spacing: 0.5px;
   transition: 1s;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 .nav-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .nav-link {
   color: #957558;
@@ -180,6 +176,18 @@ header .school {
   top: 50%;
 }
 
+/*------------------------bg-wrapper-----------------------*/
+
+.bg-wrapper {
+  background-image: url("../assets/img/world-map.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.school {
+  margin-top: 140px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
 .school h1 {
   text-align: center;
   font-style: italic;
@@ -206,17 +214,6 @@ header .school {
   background-color: #bdae82;
   transition: 0.6s;
   position: relative;
-}
-
-.transparent-btn {
-  background-color: transparent;
-  border: 1px solid #bdae82;
-  color: #bdae82;
-  transition: 0.6s;
-}
-.transparent-btn:hover {
-  box-shadow: inset 13em 0 0 0 #a1946d;
-  color: #000000;
 }
 
 .switch-btn.current-language {
@@ -373,7 +370,6 @@ header .school {
 /*------------------------levels------------------------*/
 
 .levels {
-  background-color: #ffffff;
   color: #957558;
 }
 
@@ -720,6 +716,12 @@ form {
   }
   .switch-btn {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header .container {
+    flex-wrap: wrap;
   }
 }
 
