@@ -40,13 +40,13 @@ body {
   height: 100%;
   line-height: 1;
   font-size: 22px;
-  background-color: #5fd5ef;
 }
 body {
   margin: 0 auto;
   position: relative;
   height: fit-content;
   position: relative;
+  background-color: #164752;
 }
 body,
 a,
@@ -83,8 +83,8 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  background: #5fd5ef;
   z-index: 2;
+  background-color: #164752;
 }
 .header .container {
   display: flex;
@@ -720,8 +720,14 @@ form {
 }
 
 @media (max-width: 600px) {
-  .header .container {
-    flex-wrap: wrap;
+  .burger {
+    align-self: flex-start;
+  }
+  .switch {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 70px;
   }
 }
 
