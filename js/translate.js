@@ -88,6 +88,7 @@ const transcriptionObj = {
 const switchBtn = document.querySelectorAll('.switch-btn');
 const transcriptionText = document.querySelectorAll('[data-transcription]');
 const switchBlock = document.querySelector('.switch');
+const logoImg = document.querySelector('.logo-img');
 const email = document.getElementById('#email');
 
 switchBlock.addEventListener('click', changeLanguage);
@@ -108,6 +109,7 @@ function changeLanguage(event) {
         item.placeholder = transcriptionObj[language][item.dataset.transcription];
       }
       item.textContent = transcriptionObj[language][dataText];
+      logoImg.src = `assets/img/logo-${language}.png`;
 
     });
 
