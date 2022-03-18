@@ -627,8 +627,8 @@ h1 span {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: 0.6s;
-  filter: invert(30%) sepia(30%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+  transition: 0.6s all;
+  filter: invert(24%) sepia(24%) saturate(618%) hue-rotate(9deg) brightness(99%) contrast(91%);
 }
 .facebook {
   background: url("../assets/img/2facebook.svg");
@@ -636,7 +636,7 @@ h1 span {
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.6s;
-  filter: invert(30%) sepia(30%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+  filter: invert(24%) sepia(24%) saturate(618%) hue-rotate(9deg) brightness(99%) contrast(91%);
 }
 
 .instagram:hover,
@@ -885,6 +885,10 @@ h1 span {
   }
   .little {
     font-size: 18px;
+  }
+  .school-title-span {
+    display: block;
+    margin-top: 10px;
   }
 }
 
